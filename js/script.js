@@ -17,8 +17,8 @@ const letterProxy = function (word) {
     const letterProxyHolder = [];
     for (const letter of word) {
         console.log(letter);
-        letterProxyHolder.push("●");
         letterProxyHolder.push("☀️");
+        letterProxyHolder.push("●");
     }
     wordInProgress.innerText = letterProxyHolder.join("");
 };
