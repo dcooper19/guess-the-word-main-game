@@ -32,7 +32,7 @@ guessLetterButton.addEventListener("click", function (e) {
     // grab what was entered into the input
     const guess = letterInput.value;
     // single letter only
-    const goodGuess = validateImput(guess);
+    const goodGuess = validateInput(guess);
 
     if (goodGuess) {
         // Yay, a correct letter was guessed
